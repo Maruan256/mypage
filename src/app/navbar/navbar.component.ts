@@ -9,7 +9,13 @@ import { ActivatedRoute, RouterLink, Routes, RouterModule, RouterLinkActive } fr
   styleUrl: './navbar.component.scss'
 })
 export class NavbarComponent {
+
   constructor(private route: ActivatedRoute) {
 
   }
+  public isClosed = false;
+checkIsClosed(e:Event){
+  this.isClosed = !this.isClosed;
+  console.log("closing" + this.isClosed + " " + e.type)
+}
 }
