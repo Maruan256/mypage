@@ -1,0 +1,51 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.kreis {
+  width: 150px;
+  height: 150px;
+  background: #088540;
+  border-radius: 100%;
+  position: absolute;
+  margin: 250px 0 0 0;
+}
+
+.fuss {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.links {
+  width: 20px;
+  height: 64px;
+  background: #83CF9D;
+  margin: 285px 40px 0 0;
+  border-radius: 10px;
+  position: absolute;
+  rotate: 135deg;
+}
+
+.strich {
+  width: 20px;
+  height: 220px;
+  background: #83CF9D;
+  margin: 410px 0 0 0;
+  border-radius: 10px;
+  position: absolute;
+}
+
+.rechts {
+  width: 20px;
+  height: 64px;
+  background: #83CF9D;
+  margin: 285px 0 0 40px;
+  border-radius: 10px;
+  position: absolute;
+  rotate: 45deg;
+}

@@ -1,0 +1,44 @@
+.box {
+  top: 75px;
+  left: 75px;
+  width: 250px;
+  height: 150px;
+  border-radius: 10px;
+  background: #0A9947;
+  position: absolute;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.oben {
+  height: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 10px;
+}
+
+.kurz,
+.lang {
+  border-radius: 0px 0px 20px 20px;
+  background: #FEFF27;
+  width: 20px;
+}
+
+.kurz {
+  height: 60px;
+}
+
+.lang {
+  height: 80px;
+}
+
+.unten {
+  height: 30px;
+  width: 100%;
+  background: #FEFF27;
+}

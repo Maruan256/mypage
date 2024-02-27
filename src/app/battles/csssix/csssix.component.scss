@@ -1,0 +1,101 @@
+.box {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:relative;
+}
+
+
+
+
+.links {
+  top: 75px;
+  left: 140px;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 50px solid #A94EA4;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  margin: 0px 50px 0 0px;
+}
+
+.rechts {
+  top: 75px;
+  left: 210px;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-right: 50px solid #A94EA4;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  margin: 0px -50px 0 0;
+}
+
+.kreis {
+  width: 120px;
+  aspect-ratio: 1;
+  border-radius: 100%;
+  background: #A94EA4;
+  position: absolute;
+  top: 75
+}
+
+.unten {
+  width: 0;
+  height: 0;
+  border-right: 75px solid transparent;
+  border-top: 65px solid #A94EA4;
+  border-left: 75px solid transparent;
+  z-index: 1000;
+  position: absolute;
+  top: 161;
+  left: 125;
+  margin: 100px 0 0 0;
+}
+
+.retouchel {
+  width: 20px;
+  height: 100px;
+  position: absolute;
+  background: #401653;
+  top: 100px;
+  left: 120;
+  z-index: 10000;
+  margin: 0 -140px 0 0;
+}
+
+.retoucher {
+  width: 20px;
+  height: 100px;
+  position: absolute;
+  background: #401653;
+  top: 100px;
+  left: 260;
+  z-index: 10000;
+  margin: 0 140px 0 0;
+}
+
+.senkrecht {
+  width: 60px;
+  height: 10px;
+  border-radius: 10px;
+  position: absolute;
+  background: #F7BED9;
+  top: 115px;
+  z-index: 10000;
+  position: absolute;
+}
+
+.waagerecht {
+  width: 10px;
+  height: 70px;
+  border-radius: 10px;
+  position: absolute;
+  background: #F7BED9;
+  top: 115px;
+  z-index: 10000;
+  position: absolute;
+}

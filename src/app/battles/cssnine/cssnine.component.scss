@@ -1,0 +1,40 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.links,
+.rechts {
+  width: 15px;
+  height: 50px;
+  background: #F16B4A;
+  margin: 145px 0 0 0;
+}
+
+.links {
+  border-radius: 20px 0 0 20px;
+}
+
+.rechts {
+  border-radius: 0 20px 20px 0;
+}
+
+.mitte {
+  width: 150px;
+  height: 160px;
+  background: #FAC2A8;
+  margin: 70px 0 0 0;
+  border-radius: 100px 100px 27px 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.zenter {
+  width: 80px;
+  height: 50px;
+  background: #F16B4A;
+  margin: 40px 0 0 0;
+  border-radius: 15px;
+}

@@ -1,0 +1,68 @@
+.one{
+  background: #1E1E1E;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  display:flex;
+  flex-direction: row;
+
+}
+        .links,
+        .mitte,
+        .rechts {
+          width: 75px;
+          height: 150px;
+          border-radius: 35px;
+          display: flex;
+          justify-content: center;
+        }
+
+        .links {
+          align-items: flex-end;
+          background: #DDB231;
+        }
+
+        .mitte {
+          align-items: center;
+          background: #F6B690;
+        }
+
+        .rechts {
+          align-items: flex-start;
+          background: #4B4BB6;
+        }
+
+        .sonne {
+          background: #FFFFFF;
+          width: 40px;
+          height: 40px;
+          border-radius: 100%
+        }
+
+        .sonnenaufgang {
+          background: #FFFFFF;
+          width: 40px;
+          height: 30px;
+          border-radius: 100px 100px 23px 23px;
+          margin: 0 0 20px 0;
+        }
+
+        .mond {
+          background: #FFFFFF;
+          width: 40px;
+          height: 40px;
+          border-radius: 100%;
+          position: absolute;
+          margin: 17px 5px 0 0;
+        }
+
+        .sichel {
+          background: #4B4BB6;
+          width: 40px;
+          height: 40px;
+          border-radius: 100%;
+          position: absolute;
+          margin: 6px 0 0 28px;
+          z-index: 1;
+        }

@@ -1,0 +1,61 @@
+.box {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.deckel {
+  width: 200px;
+  height: 30px;
+  background: #FFFFFF;
+  margin: 0 0 90px 0;
+}
+
+.band {
+  width: 180px;
+  height: 10px;
+  background: #6DA7FF;
+  position: absolute;
+  margin: 0 0 50px 0;
+}
+
+.kiste {
+  width: 180px;
+  height: 80px;
+  position: absolute;
+  background: #FFFFFF;
+  margin: 40px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.bandblau {
+  width: 30px;
+  height: 60px;
+  background: #6DA7FF;
+  margin: 0 0 0 110px;
+}
+
+.bandweiss {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+
+  border-bottom: 65px solid #FFFFFF;
+  position: absolute;
+  margin: 35px 0 0 110px;
+}
+
+.hintergrund {
+  width: 100px;
+  height: 50px;
+  background: #F2644D;
+  position: absolute;
+  margin: 80px 0 0 110px;
+}

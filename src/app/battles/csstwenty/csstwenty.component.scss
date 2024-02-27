@@ -1,0 +1,53 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ring {
+  top: 40px;
+  width: 220px;
+  aspect-ratio: 1;
+  background: #9CCCDB;
+  border-radius: 100%;
+  position: absolute;
+}
+
+.inner {
+  background: #FEFAE0;
+  border-radius: 100%;
+  position: absolute;
+  inset: 20px;
+}
+
+.even {
+  background: #9CCCDB;
+  border-radius: 100%;
+  position: absolute;
+  inset: 50px;
+}
+
+.eins,
+.zwei,
+.drei {
+  position: absolute;
+  background: #9CCCDB;
+  width: 20px;
+  height: 70px;
+}
+
+.eins {
+  left: 80px;
+}
+
+.zwei {
+  rotate: 60deg;
+  top: 86px;
+  left: 26px;
+}
+
+.drei {
+  rotate: 300deg;
+  top: 86px;
+  left: 134px;
+}

@@ -1,0 +1,83 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.kopf {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background: #BD3E4B;
+  margin: 50px 0 0 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.auge {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background: #14313E;
+  margin: -20px -5px -15px -5px;
+}
+
+.arme {
+  width: 180px;
+  height: 60px;
+  background: #BD3E4B;
+  border-radius: 50px;
+  margin: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.knopf {
+  width: 20px;
+  height: 20px;
+  background: #F16348;
+  border-radius: 100%;
+  position: absolute;
+}
+
+.knopfzwei {
+  width: 20px;
+  height: 20px;
+  background: #F16348;
+  border-radius: 100%;
+  position: absolute;
+  margin-top: 60px;
+  z-index: 1000;
+}
+
+.beine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 10px 0 10px;
+}
+
+.bein {
+  width: 100px;
+  height: 60px;
+  background: #BD3E4B;
+  border-radius: 50px;
+  margin: -22px;
+  rotate: 135deg;
+}
+
+.beinzwei {
+  width: 100px;
+  height: 60px;
+  background: #BD3E4B;
+  border-radius: 50px;
+  margin: -22px;
+  rotate: 45deg;
+}

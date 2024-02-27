@@ -1,0 +1,69 @@
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+}
+
+.kreis {
+  width: 30px;
+  aspect-ratio: 1;
+  background: #F16348;
+  border-radius: 100%;
+  margin: 75px 0 0 0;
+  z-index: 2;
+}
+
+.dreieck {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+
+}
+
+.eins {
+  width: 0;
+  height: 0;
+  border-left: 75px transparent solid;
+  border-right: 75px transparent solid;
+  border-bottom: 140px black solid;
+  position: absolute;
+  margin: 100px 0 0 0;
+  border-image: linear-gradient(#BD3F4C,
+      #BD3F4C 35px,
+      #F16348 35px,
+      #F16348 55px,
+      #BD3F4C 55px,
+      #BD3F4C 70px,
+      #F16348 70px,
+      #F16348 90px,
+      #BD3F4C 90px,
+      #BD3F4C 105px,
+      #F16348 105px,
+      #F16348 125px,
+      #BD3F4C 125px);
+}
+
+.drei {
+  width: 0;
+  height: 0;
+  border-left: 160px transparent solid;
+  border-right: 160px transparent solid;
+  border-top: 300px #14313E solid;
+  position: absolute;
+  margin: 10px 185px 0 0;
+  z-index: 1;
+}
+
+.zwei {
+  width: 0;
+  height: 0;
+  border-left: 160px transparent solid;
+  border-right: 160px transparent solid;
+  border-top: 300px #14313E solid;
+  position: absolute;
+  margin: 0 0 0 180px;
+}

@@ -1,0 +1,34 @@
+div {
+  position: absolute;
+}
+
+.pole {
+  top: 60px;
+  left: 130px;
+  width: 20px;
+  height: 180px;
+  background: #8B0051;
+  border-radius: 20px;
+}
+
+.vorne,
+.hinten {
+  width: 90px;
+  height: 60px;
+  background: #F069AB;
+}
+
+.vorne {
+  top: 78px;
+  left: 150px;
+  border-radius: 0 10px 10px 0;
+  z-index: 2;
+}
+
+.hinten {
+  top: 98px;
+  left: 180px;
+  background: #EC0076;
+  border-radius: 0 10px 10px 10px;
+
+}

@@ -1,0 +1,54 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.oben {
+  width: 100px;
+  height: 20px;
+  background: #E6E7E8;
+  border-radius: 20px;
+  position: absolute;
+  margin: 160px 0 0 0;
+}
+
+.mitte {
+  width: 80px;
+  height: 90px;
+  background: #7E6BB7;
+  position: absolute;
+  margin: 270px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.unten {
+  width: 80px;
+  height: 50px;
+  background: #E6E7E8;
+  border-radius: 0 0 40px 40px;
+  position: absolute;
+  margin: 410px 0 0 0;
+}
+
+.gross {
+  width: 20px;
+  aspect-ratio: 1;
+  border-radius: 100%;
+  background: #E6E7E8;
+  margin: 0 40px 10 0;
+  position: absolute;
+}
+
+.klein {
+  width: 10px;
+  aspect-ratio: 1;
+  border-radius: 100%;
+  background: #E6E7E8;
+  margin: 40px 10px 0 0;
+  position: absolute;
+}

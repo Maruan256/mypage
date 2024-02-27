@@ -1,0 +1,46 @@
+.box {
+  width: 120px;
+  height: 200px;
+  top: 50px;
+  left: 140px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  position: absolute;
+  flex-direction: column;
+}
+
+.griff,
+.deckel {
+  border-radius: 10px 10px 0px 0px;
+  background: #684C3B;
+}
+
+.griff {
+  width: 40px;
+  height: 20px;
+}
+
+.deckel {
+  width: 120px;
+  height: 20px;
+}
+
+.pubel {
+  width: 120px;
+  height: 140px;
+  background: #684C3B;
+  margin: 20px 0 0 0;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.links {
+  height: 80px;
+  width: 20px;
+  background: #D8B788;
+  border-radius: 20px;
+}

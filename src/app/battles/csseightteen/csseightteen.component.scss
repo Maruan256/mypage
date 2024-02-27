@@ -1,0 +1,13 @@
+.box {
+  width: 120px;
+  height: 180px;
+  background: repeating-linear-gradient(#5E0000,
+      #5E0000 20px,
+      #F89F65 20px,
+      #F89F65 40px);
+  position: absolute;
+  margin: 57px 0 0 140px;
+  transform: skew(-16.8deg);
+  rotate: 90deg;
+
+}
