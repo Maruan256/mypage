@@ -14,18 +14,25 @@
   <div class="grid">
 
   </div>
+  <div>
+    <button type="button" class="button">
+    <a href="http://localhost:4200/games-site">back!</a>
+  </button>
+  </div>
   <script>
     const grid = document.querySelector('.grid');
-    const results = document.querySelector('.results');
+    const resultDisplay = document.querySelector('.results');
     const width = 15;
     const aliensRemoved = [];
     let currentShooterIndex = 218;
-    let alienInvaderId;
+    let invadersId;
     let isGoinnRight = true;
     let direction = 1;
+    let result = 0;
 
     for (let i = 0; i < width * width; i++) {
       const square = document.createElement('div');
+      square.id = i;
       grid.appendChild(square);
     }
 
@@ -96,9 +103,45 @@
       }
 
       draw()
-      if(currentShooterIndex)
+      if(squares[currentShooterIndex].classList.contains('invader'))
+        {resultDisplay.innerHTML = 'GAME OVER'
+        clearInterval(invadersId)}
+      if(aliensRemoved.length === alienInvaders.length){
+        resultDisplay.innerHTML = 'YOU WIN!'
+        clearInterval(invadersId)
+      }
     }
-    alienInvaderId = setInterval(moveInvaders, 600)
+    invadersId = setInterval(moveInvaders, 600)
+
+    function shoot(e) {
+      let laserId
+      let currentLaserIndex = currentShooterIndex
+
+      function moveLaser(){
+        squares[currentLaserIndex].classList.remove('laser')
+        currentLaserIndex -= width
+        squares[currentLaserIndex].classList.add('laser')
+
+        if (squares[currentLaserIndex].classList.contains('invader')){
+          squares[currentLaserIndex].classList.remove('invader')
+          squares[currentLaserIndex].classList.remove('laser')
+          squares[currentLaserIndex].classList.add('boom')
+          setTimeout(() => squares[currentLaserIndex].classList.remove('boom'), 300)
+          clearInterval(laserId)
+
+          const alienRemoved = alienInvaders.indexOf(currentLaserIndex)
+          aliensRemoved.push(alienRemoved)
+          result++
+          resultDisplay.innerHTML = result;
+        }
+      }
+      switch (e.key) {
+        case 'ArrowUp':
+          laserId = setInterval(moveLaser, 100)
+          break;
+      }
+    }
+    document.addEventListener('keydown', shoot)
 
   </script>
 </body>
@@ -132,5 +175,16 @@
   .boom{
     background-color: white;
   }
+  .button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 </style>
 </html>
