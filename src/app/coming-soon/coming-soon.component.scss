@@ -1,0 +1,23 @@
+.box{
+  height: 90vh;
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.innerbox{
+
+}
+#coming{
+  letter-spacing: -0.2em;
+  font-size: 15em;
+  text-wrap: nowrap;
+  margin-bottom: -200px;
+}
+#soon{
+font-size: 200px;
+  font-weight: lighter;
+  letter-spacing: -0.2em;
+  text-wrap: nowrap;
+}
