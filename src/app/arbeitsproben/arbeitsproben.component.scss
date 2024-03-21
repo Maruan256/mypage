@@ -4,6 +4,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border:2px solid red;
   gap:10px;
+}
+.battle{
+  text-decoration: none;
+  color: black;
+  letter-spacing: 0.4em;
+    font-size: 3em;
+    text-wrap: nowrap;
+    font-weight: 100;
+    border: 1px black solid;
+    border-radius: 10px;
+
+}
+.games{
+text-decoration: none;
+  color: black;
+  font-size: 3em;
+  text-wrap: nowrap;
+  font-weight: 100;
+      border: 1px black solid;
+  border-radius: 10px;
 }
