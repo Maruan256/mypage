@@ -1,0 +1,17 @@
+.box {
+  width: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.button {
+  text-decoration: none;
+  color: black;
+  text-wrap: nowrap;
+  font-weight: 100;
+  font-size: 3em;
+  letter-spacing: 0.4em;
+}
