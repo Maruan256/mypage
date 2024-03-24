@@ -13,23 +13,22 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  padding: 50px;
 
 }
-.containertop {
+.containerleft {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
-  border: 1px green solid;
   flex-basis: 20%;
-  padding-right: 20px;
+  margin-left: 100px;
 }
 .container{
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
-  border: 1px red solid;
 }
 .containerzwei{
   display: flex;
@@ -37,7 +36,6 @@
     align-items: center;
     flex-direction: column;
     flex-basis: 80%;
-    border:1px pink solid;
 }
 .innercontainer{
   display: flex;
@@ -46,7 +44,6 @@
 .about{
   justify-content: center;
   align-items: center;
-  border: 1px lightgreen solid;
 }
 span{
   display: inline-block;
@@ -55,18 +52,15 @@ span{
 .ausbildung{
   justify-content: center;
     align-items: center;
-    border: 1px lightgreen solid;
     width:80vw;
 }
 .preiseundauszeichnung{
   justify-content: center;
     align-items: center;
-    border: 1px lightgreen solid;
     width: 80vw;
 }
 .veroeffentlichungen{
   justify-content: center;
     align-items: center;
-    border: 1px lightgreen solid;
     width: 80vw;
 }

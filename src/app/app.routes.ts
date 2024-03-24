@@ -9,8 +9,8 @@ import { SpaceinvadersComponent } from './games/spaceinvaders/spaceinvaders.comp
 import { ComingSoonComponent } from './coming-soon/coming-soon.component';
 
 export const routes: Routes = [
-  { path: 'anschreiben', component: AnschreibenComponent},
-  { path: 'diese-seite', component: DieseSeiteComponent },
+  { path: 'anschreiben', component: ComingSoonComponent},
+  { path: 'diese-seite', component: ComingSoonComponent },
   { path: 'arbeitsproben', component: ArbeitsprobenComponent },
   { path: 'cv', component: CvComponent },
   { path: 'css-battle', component: CssBattleComponent },
