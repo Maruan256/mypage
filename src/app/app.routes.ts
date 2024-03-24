@@ -7,9 +7,10 @@ import { CssBattleComponent } from './css-battle/css-battle.component';
 import { GamesSiteComponent } from './games-site/games-site.component';
 import { SpaceinvadersComponent } from './games/spaceinvaders/spaceinvaders.component';
 import { ComingSoonComponent } from './coming-soon/coming-soon.component';
+import { BlankComponent } from './blank/blank.component';
 
 export const routes: Routes = [
-  { path: '', component: CvComponent},
+  { path: '', component: BlankComponent},
   { path: 'anschreiben', component: ComingSoonComponent},
   { path: 'diese-seite', component: ComingSoonComponent },
   { path: 'arbeitsproben', component: ArbeitsprobenComponent },
