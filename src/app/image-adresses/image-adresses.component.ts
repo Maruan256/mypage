@@ -1,30 +1,24 @@
 import { Component } from '@angular/core';
-import { ImageAdressesComponent } from '../image-adresses/image-adresses.component';
-import { CommonModule } from '@angular/common';
-import { BrowserModule } from '@angular/platform-browser';
 
 @Component({
-  selector: 'app-cv',
+  selector: 'app-image-adresses',
   standalone: true,
-  imports: [ImageAdressesComponent, CommonModule],
-  templateUrl: './cv.component.html',
-  styleUrl: './cv.component.scss'
+  imports: [],
+  templateUrl: './image-adresses.component.html',
+  styleUrl: './image-adresses.component.scss'
 })
-
-export class CvComponent {
-
-  constructor(){
+export class ImageAdressesComponent {
+  constructor() {
 
   }
-
-   imagesAdresses: string[] = [
+  imagesAdresses = [
     "../../assets/images/png-512/Angular.png",
     "../../assets/images/png-512/Ant-Design.png",
     "../../assets/images/png-512/Apache-Maven.png",
     "../../assets/images/png-512/Babel.png",
     "../../assets/images/png-512/CSS3.png",
     "../../assets/images/png-512/Bash.png",
-    "../../assets/images/png-512/BitBucket.png",
+    "../../assets/images/png-512/Bitbucket.png",
     "../../assets/images/png-512/Bootstrap.png",
     "../../assets/images/png-512/Canva.png",
     "../../assets/images/png-512/CentOS.png",
@@ -42,11 +36,11 @@ export class CvComponent {
     "../../assets/images/png-512/Heroku.png",
     "../../assets/images/png-512/Homebrew.png",
     "../../assets/images/png-512/HTML5.png",
-    "../../assets/images/png-512/IntelliJ-IDEA.png",
+    "../../assets/images/png-512/InteliJ-IDEA.png",
     "../../assets/images/png-512/Java.png",
     "../../assets/images/png-512/JavaScript.png",
     "../../assets/images/png-512/Jenkins.png",
-    "../../assets/images/png-512/JetBrains.png",
+    "../../assets/images/png-512/JetBrain.png",
     "../../assets/images/png-512/Jira.png",
     "../../assets/images/png-512/jQuery.png",
     "../../assets/images/png-512/JSON.png",
@@ -81,7 +75,6 @@ export class CvComponent {
     "../../assets/images/png-512/Webpack.png",
     "../../assets/images/png-512/XML.png",
     "../../assets/images/png-512/YAML.png",
-    "../../assets/images/png-512/Yarn.png",
-  ]
-
+    "../../assets/images/png-512/YARN.png",
+  ];
 }
